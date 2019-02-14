@@ -8,3 +8,12 @@ C:\Users\Jack Wright\Documents\ICS3U Programming\Major Assignments\FallingObject
 C:\Users\Jack Wright\Documents\ICS3U Programming\Major Assignments\FallingObjectsJackW\FallingObjectsJackW\obj\Debug\FallingObjectsJackW.csproj.CoreCompileInputs.cache
 C:\Users\Jack Wright\Documents\ICS3U Programming\Major Assignments\FallingObjectsJackW\FallingObjectsJackW\obj\Debug\FallingObjectsJackW.exe
 C:\Users\Jack Wright\Documents\ICS3U Programming\Major Assignments\FallingObjectsJackW\FallingObjectsJackW\obj\Debug\FallingObjectsJackW.pdb
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Wright, Jack (s427624)\Assignments\Assignments\FallingObjectsJackW\FallingObjectsJackW\bin\Debug\FallingObjectsJackW.exe.config
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Wright, Jack (s427624)\Assignments\Assignments\FallingObjectsJackW\FallingObjectsJackW\bin\Debug\FallingObjectsJackW.exe
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Wright, Jack (s427624)\Assignments\Assignments\FallingObjectsJackW\FallingObjectsJackW\bin\Debug\FallingObjectsJackW.pdb
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Wright, Jack (s427624)\Assignments\Assignments\FallingObjectsJackW\FallingObjectsJackW\obj\Debug\FallingObjectsJackW.csprojResolveAssemblyReference.cache
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Wright, Jack (s427624)\Assignments\Assignments\FallingObjectsJackW\FallingObjectsJackW\obj\Debug\FallingObjectsJackW.frmFallingObjects.resources
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Wright, Jack (s427624)\Assignments\Assignments\FallingObjectsJackW\FallingObjectsJackW\obj\Debug\FallingObjectsJackW.Properties.Resources.resources
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Wright, Jack (s427624)\Assignments\Assignments\FallingObjectsJackW\FallingObjectsJackW\obj\Debug\FallingObjectsJackW.csproj.GenerateResource.Cache
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Wright, Jack (s427624)\Assignments\Assignments\FallingObjectsJackW\FallingObjectsJackW\obj\Debug\FallingObjectsJackW.exe
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Wright, Jack (s427624)\Assignments\Assignments\FallingObjectsJackW\FallingObjectsJackW\obj\Debug\FallingObjectsJackW.pdb
