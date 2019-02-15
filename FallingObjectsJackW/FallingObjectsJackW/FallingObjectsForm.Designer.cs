@@ -33,7 +33,10 @@
             this.lblStatement2 = new System.Windows.Forms.Label();
             this.lblStatement3 = new System.Windows.Forms.Label();
             this.lblAnswer = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.radGravEarth = new System.Windows.Forms.RadioButton();
+            this.radGravMars = new System.Windows.Forms.RadioButton();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblStatement1
@@ -42,9 +45,9 @@
             this.lblStatement1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.lblStatement1.Location = new System.Drawing.Point(35, 181);
             this.lblStatement1.Name = "lblStatement1";
-            this.lblStatement1.Size = new System.Drawing.Size(407, 24);
+            this.lblStatement1.Size = new System.Drawing.Size(396, 24);
             this.lblStatement1.TabIndex = 0;
-            this.lblStatement1.Text = "A person drops and object off a 100 m cliff. After";
+            this.lblStatement1.Text = "A person drops an object off a 100 m cliff. After";
             // 
             // txtAnswer
             // 
@@ -86,23 +89,47 @@
             this.lblAnswer.TabIndex = 4;
             this.lblAnswer.Click += new System.EventHandler(this.label4_Click);
             // 
-            // radioButton1
+            // groupBox1
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(12, 12);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(85, 17);
-            this.radioButton1.TabIndex = 5;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.groupBox1.Controls.Add(this.radGravMars);
+            this.groupBox1.Controls.Add(this.radGravEarth);
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(154, 151);
+            this.groupBox1.TabIndex = 5;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Gravity Options";
+            // 
+            // radGravEarth
+            // 
+            this.radGravEarth.AutoSize = true;
+            this.radGravEarth.Location = new System.Drawing.Point(27, 46);
+            this.radGravEarth.Name = "radGravEarth";
+            this.radGravEarth.Size = new System.Drawing.Size(50, 17);
+            this.radGravEarth.TabIndex = 6;
+            this.radGravEarth.TabStop = true;
+            this.radGravEarth.Text = "Earth";
+            this.radGravEarth.UseVisualStyleBackColor = true;
+            this.radGravEarth.CheckedChanged += new System.EventHandler(this.radGravEarth_CheckedChanged);
+            // 
+            // radGravMars
+            // 
+            this.radGravMars.AutoSize = true;
+            this.radGravMars.Location = new System.Drawing.Point(27, 98);
+            this.radGravMars.Name = "radGravMars";
+            this.radGravMars.Size = new System.Drawing.Size(48, 17);
+            this.radGravMars.TabIndex = 7;
+            this.radGravMars.TabStop = true;
+            this.radGravMars.Text = "Mars";
+            this.radGravMars.UseVisualStyleBackColor = true;
+            this.radGravMars.CheckedChanged += new System.EventHandler(this.radGravMars_CheckedChanged);
             // 
             // frmFallingObjects
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lblAnswer);
             this.Controls.Add(this.lblStatement3);
             this.Controls.Add(this.lblStatement2);
@@ -111,6 +138,8 @@
             this.Name = "frmFallingObjects";
             this.Text = "Falling Objects by Jack W";
             this.Load += new System.EventHandler(this.frmFallingObjects_Load);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -123,7 +152,9 @@
         private System.Windows.Forms.Label lblStatement2;
         private System.Windows.Forms.Label lblStatement3;
         private System.Windows.Forms.Label lblAnswer;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.RadioButton radGravMars;
+        private System.Windows.Forms.RadioButton radGravEarth;
     }
 }
 

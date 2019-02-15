@@ -17,6 +17,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace FallingObjectsJackW
 {
     public partial class frmFallingObjects : Form
@@ -24,7 +25,12 @@ namespace FallingObjectsJackW
         public frmFallingObjects()
         {
             InitializeComponent();
+            
+
         }
+
+        // Creates a gravity variable that the user has the option to change.
+        double gravity = 9.81;
 
         private void label2_Click(object sender, EventArgs e)
         {
@@ -66,9 +72,10 @@ namespace FallingObjectsJackW
                 // converts user input to a double
                 double time = Convert.ToDouble(txtAnswer.Text);
 
-               
+
                 // Calculates answer and rounds to two decimals
-                double height = Convert.ToDouble(Math.Round(100 * (100 - (0.5 * 9.81 * Math.Pow(time, 2)))) / 100);
+                
+                double height = Convert.ToDouble(Math.Round(100 * (100 - (0.5 * gravity * Math.Pow(time, 2)))) / 100);
                 if (height >= 0)
                 {
                     
@@ -88,6 +95,16 @@ namespace FallingObjectsJackW
         private void lblStatement1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void radGravEarth_CheckedChanged(object sender, EventArgs e)
+        {
+            gravity = 9.81;
+        }
+
+        private void radGravMars_CheckedChanged(object sender, EventArgs e)
+        {
+            gravity = 3.71;
         }
     }
 }
